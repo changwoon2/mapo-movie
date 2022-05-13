@@ -21,10 +21,41 @@
   z-index: 1;
 }
 
+.chatbox {
+  animation: motion 0.3s linear 0s infinite alternate;
+  margin-top: 0;
+}
+
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+
+#home {
+  position: absolute;
+  left: 537px;
+  top: 60px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  z-index: 1;
+  letter-spacing: 15px;
+}
+#home a:hover {
+  color: #9d24fc;
+}
+#home a {
+  color: white;
+}
+
 /* 헤더영역글 */
 #header {
   position: absolute;
-  left: 718px;
+  left: 713px;
   top: 60px;
   font-weight: 800;
   font-size: 20px;
@@ -39,7 +70,7 @@
 }
 #content {
   position: absolute;
-  left: 894px;
+  left: 889px;
   top: 60px;
   font-weight: 800;
   font-size: 20px;

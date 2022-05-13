@@ -9,6 +9,11 @@
 
 body {
   background: #121829;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
@@ -26,6 +31,20 @@ h1 {
   left: 240px;
   top: 60px;
   z-index: 1;
+}
+
+.chatbox {
+  animation: motion 0.3s linear 0s infinite alternate;
+  margin-top: 0;
+}
+
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 5px;
+  }
 }
 
 /* 헤더영역글 */
@@ -88,6 +107,11 @@ h1 {
   top: 1px;
   border: 1px solid #ffffff;
 }
+
+#var:hover {
+  border: 1px solid #9d24fc;
+}
+
 #bars {
   position: absolute;
   left: 83.23%;
@@ -268,6 +292,7 @@ h1 {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  border-radius: 10px;
 }
 
 .imgsix {
@@ -461,13 +486,10 @@ h1 {
 
 .emphasized {
   position: absolute;
-
   top: 150px;
   left: 30px;
-
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px,
     rgba(0, 0, 0, 0.5) 2px 2px 3px 3px;
-
   z-index: 100;
 }
 
