@@ -120,6 +120,9 @@ h1 {
   bottom: 89.81%;
   cursor: pointer;
 }
+
+#bars:hover {
+}
 .facebook {
   position: absolute;
   width: 50px;
@@ -192,19 +195,18 @@ h1 {
   }
 }
 
+.texthover:hover .image {
+  opacity: 0.3;
+}
+
+.texthover:hover .middle {
+  opacity: 1;
+}
 .imgone {
   position: absolute;
   left: 240px;
   top: 218px;
   cursor: pointer;
-}
-
-.imgone:hover .image {
-  opacity: 0.3;
-}
-
-.imgone:hover .middle {
-  opacity: 1;
 }
 
 .imgtwo {
@@ -214,14 +216,6 @@ h1 {
   cursor: pointer;
 }
 
-.imgtwo:hover .image {
-  opacity: 0.3;
-}
-
-.imgtwo:hover .middle {
-  opacity: 1;
-}
-
 .imgthree {
   position: absolute;
   left: 864px;
@@ -229,27 +223,11 @@ h1 {
   cursor: pointer;
 }
 
-.imgthree:hover .image {
-  opacity: 0.3;
-}
-
-.imgthree:hover .middle {
-  opacity: 1;
-}
-
 .imgfour {
   position: absolute;
   left: 1176px;
   top: 218px;
   cursor: pointer;
-}
-
-.imgfour:hover .image {
-  opacity: 0.3;
-}
-
-.imgfour:hover .middle {
-  opacity: 1;
 }
 
 .container {
@@ -279,14 +257,6 @@ h1 {
   text-align: center;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
 .text {
   background-color: #9d24fc;
   color: white;
@@ -302,14 +272,6 @@ h1 {
   cursor: pointer;
 }
 
-.imgsix:hover .image {
-  opacity: 0.3;
-}
-
-.imgsix:hover .middle {
-  opacity: 1;
-}
-
 .imgseven {
   position: absolute;
   left: 864px;
@@ -317,26 +279,11 @@ h1 {
   cursor: pointer;
 }
 
-.imgseven:hover .image {
-  opacity: 0.3;
-}
-
-.imgseven:hover .middle {
-  opacity: 1;
-}
 .imgeight {
   position: absolute;
   left: 1176px;
   top: 648px;
   cursor: pointer;
-}
-
-.imgeight:hover .image {
-  opacity: 0.3;
-}
-
-.imgeight:hover .middle {
-  opacity: 1;
 }
 
 /* bars */
