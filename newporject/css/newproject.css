@@ -112,17 +112,6 @@ h1 {
   border: 1px solid #9d24fc;
 }
 
-#bars {
-  position: absolute;
-  left: 83.23%;
-  right: 14.17%;
-  top: 5.56%;
-  bottom: 89.81%;
-  cursor: pointer;
-}
-
-#bars:hover {
-}
 .facebook {
   position: absolute;
   width: 50px;
@@ -287,12 +276,12 @@ h1 {
 }
 
 /* bars */
-#myNav .kakao {
+.kakao {
   position: absolute;
   left: 280px;
   top: 270px;
 }
-#myNav .naver {
+.naver {
   position: absolute;
   left: 350px;
   top: 270px;
@@ -350,7 +339,7 @@ h1 {
   top: 601px;
   left: 140px;
 }
-#myNav .head {
+.head {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -358,7 +347,7 @@ h1 {
   left: 202px;
 }
 
-#myNav .mond {
+.mond {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -421,11 +410,6 @@ h1 {
   left: 140px;
   top: 120px;
 }
-#myNav {
-  position: absolute;
-  left: 810px;
-  top: 50px;
-}
 
 .barstext:hover {
   color: #9d24fc;
@@ -438,34 +422,6 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px,
     rgba(0, 0, 0, 0.5) 2px 2px 3px 3px;
   z-index: 100;
-}
-
-.overlay {
-  width: 0;
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
-  left: 0;
-  top: 0;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
 }
 
 .gnb {
@@ -502,4 +458,82 @@ h1 {
 /*태그가 호버링 되면 가상 요소의 크기를 100%로 키우기*/
 .gnb a:hover:before {
   width: 100%;
+}
+
+/* 메뉴바 */
+
+/* blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+} */
+
+.mBtn a {
+  /* display: block;
+  text-indent: -9999px; */
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url("../img/bars.png");
+  /* margin-top: 20px; */
+  left: 83.23%;
+  right: 14.17%;
+  top: 5.56%;
+  bottom: 89.81%;
+}
+.mNav {
+  z-index: 2;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  right: -100%;
+  width: 40%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.mNav.on {
+  right: 0;
+}
+.bg-shadow {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  cursor: pointer;
+}
+
+.sub {
+  position: relative;
+  padding-top: 30px;
+}
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+.closeBtn a {
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  height: 50px;
+  background: url("../img/close_icon.png");
+  background-color: #fff;
+  border: 10px;
+  border-radius: 40px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.sub li a {
+  display: block;
+  font-size: 1.4rem;
+  color: #333;
+  padding: 10px 20px;
+  border-bottom: 1px solid #d1d4d8;
 }
