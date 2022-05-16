@@ -6,9 +6,8 @@
   z-index: 999;
   border: 1px solid #ccc;
   outline: none;
-  background-color: black;
-  color: #333;
+  opacity: 1;
   cursor: pointer;
   padding: 15px 20px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
