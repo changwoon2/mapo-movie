@@ -7,6 +7,13 @@
   font-family: "Inter";
   font-style: normal;
 }
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
 
 #logo {
   position: absolute;
@@ -315,6 +322,7 @@ body {
   white-space: nowrap;
   margin-top: -10%;
   margin-left: 0%;
+  text-align: center;
   /* overflow: hidden; */
   /* text-overflow: ellipsis; */
 }
