@@ -310,7 +310,11 @@ body {
   font-size: 16px;
   padding: 16px 32px;
   border-radius: 10px;
+  letter-spacing: 1px;
+  position: absolute;
   white-space: nowrap;
+  margin-top: -10%;
+  margin-left: 0%;
   /* overflow: hidden; */
   /* text-overflow: ellipsis; */
 }
