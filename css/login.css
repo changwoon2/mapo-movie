@@ -118,14 +118,17 @@ input {
 }
 
 #back {
-  color: white;
   padding-left: 950px;
   padding-top: 650px;
   font-size: 10px;
   position: absolute;
-  text-decoration: underline;
 }
 
+#back a {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
 /* .hide-login-btn {
   color: white;
   position: absolute;
