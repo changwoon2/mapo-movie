@@ -20,8 +20,9 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 120px;
-  top: 35px;
+  left: 240px;
+  top: 60px;
+  z-index: 1;
 }
 
 .chatbox {
@@ -40,13 +41,13 @@ body {
 
 #home {
   position: absolute;
-  left: 688px;
-  top: 46px;
+  left: 725px;
+  top: 60px;
   font-size: 20px;
   font-weight: 800;
   line-height: 24px;
   z-index: 1;
-  letter-spacing: 15px;
+  letter-spacing: 0.6em;
 }
 #home a:hover {
   color: #9d24fc;
@@ -57,11 +58,13 @@ body {
 
 #header {
   position: absolute;
-  left: 864px;
-  top: 46px;
-  font-weight: 800;
+  left: 895px;
+  top: 60px;
   font-size: 20px;
+  font-weight: 800;
   line-height: 24px;
+  z-index: 1;
+  letter-spacing: 0.1em;
 }
 #header a:hover {
   color: #9d24fc;
@@ -69,32 +72,18 @@ body {
 #header a {
   color: white;
 }
-#content {
-  position: absolute;
-  left: 1040px;
-  top: 46px;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ffffff;
-}
-#content a {
-  color: white;
-}
-#content a:hover {
-  color: #9d24fc;
-}
+
 #login {
   position: absolute;
   width: 94px;
   height: 24px;
-  left: 1216px;
-  top: 46px;
+  left: 1090px;
+  top: 60px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.4em;
-  color: #c4c4c4;
+  z-index: 1;
 }
 #login a {
   color: #c4c4c4;
@@ -167,47 +156,76 @@ body {
 }
 
 .imges {
-  position: absolute;
-  top: 900px;
-  left: 120px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 250px;
 }
 
-.imgesone {
-  left: 120px;
-  position: absolute;
-  top: 1400px;
-}
-
-.text {
+.text1 {
+  display: block;
   color: white;
   text-align: center;
-  margin-top: 130px;
-  left: 600px;
-  position: absolute;
+  margin-top: 50px;
 }
 
 .textone {
+  display: block;
   color: white;
-  text-align: left;
-  left: 600px;
-  position: absolute;
-  margin-top: 200px;
+  text-align: center;
+  margin-top: 50px;
   line-height: 50px;
+}
+
+.imgesone {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .text2 {
+  display: block;
   color: white;
   text-align: center;
-  margin-top: 625px;
-  left: 600px;
-  position: absolute;
+  margin-top: 50px;
 }
 
 .texttwo {
+  display: block;
   color: white;
-  text-align: left;
-  left: 600px;
-  position: absolute;
-  margin-top: 700px;
+  text-align: center;
+  margin-top: 50px;
   line-height: 50px;
+}
+
+.imgestwo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.text3 {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.textthree {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 50px;
+  height: 250px;
+}
+
+.imges,
+.imgesone,
+.imgestwo {
+  transition: all 0.2s linear;
+}
+.imges:hover,
+.imgesone:hover,
+.imgestwo:hover {
+  transform: scale(1.1);
 }
