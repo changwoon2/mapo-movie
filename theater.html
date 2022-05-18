@@ -68,6 +68,7 @@
       <div>서울 마포구 월드컵북로54길 12 디지털매직스페이스</div>
       <div>영화가 있는 곳, 영화를 만나는 곳, 영화가 당신을 기다리는 곳</div>
     </div>
+    <div id="map" style="width: 500px; height: 400px"></div>
     <!-- 제이쿼리 실행 -->
     <script src="js/jquery-3.6.0.js"></script>
     <!-- 이미지 슬라이드 불러오는영역 -->
@@ -77,5 +78,18 @@
     <script src="js/top.js"></script>
     <!-- 박스 영역 스크롤 -->
     <script src="js/boxlist.js"></script>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4679eaf25f8ad4a6f608a49bfbafe391"
+    ></script>
+    <script>
+      var container = document.getElementById("map");
+      var options = {
+        center: new kakao.maps.LatLng(33.450701, 126.570667),
+        level: 3,
+      };
+
+      var map = new kakao.maps.Map(container, options);
+    </script>
   </body>
 </html>

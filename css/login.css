@@ -95,6 +95,19 @@ input::-webkit-input-placeholder {
   font-size: 20px;
 }
 
+input:focus {
+  animation-name: border-focus;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes border-focus {
+  from {
+    border-radius: 0;
+  }
+  to {
+    border-radius: 25px;
+  }
+}
 input {
   color: transparent;
   text-shadow: 0 0 0 white;
@@ -105,8 +118,7 @@ input {
 .login-btn {
   width: 486px;
   height: 56px;
-  background: #7b6ef6;
-  border: 0;
+  border: #7b6ef6 solid 1px;
   color: white;
   padding: 10px;
   border-radius: 6px;
@@ -115,6 +127,8 @@ input {
   top: 344px;
   position: absolute;
   font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 #back {
