@@ -227,5 +227,16 @@ body {
 .imges:hover,
 .imgesone:hover,
 .imgestwo:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 5s;
+}
+
+.imges.active {
+  width: 20rem;
+}
+.imgesone.active {
+  width: 20rem;
+}
+.imgestwo.active {
+  width: 20rem;
 }

@@ -357,6 +357,7 @@ h1 {
   color: #ffffff;
   top: 481px;
   left: 140px;
+  letter-spacing: 0.1em;
 }
 .MapoMovie {
   position: absolute;
@@ -366,6 +367,7 @@ h1 {
   color: #ffffff;
   top: 521px;
   left: 140px;
+  letter-spacing: 0.1em;
 }
 
 .Theater {
@@ -386,6 +388,7 @@ h1 {
   color: #ffffff;
   top: 601px;
   left: 140px;
+  letter-spacing: 0.1em;
 }
 .head {
   position: absolute;
