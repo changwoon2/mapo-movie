@@ -73,7 +73,7 @@
       <div>영화가 있는 곳, 영화를 만나는 곳, 영화가 당신을 기다리는 곳</div>
     </div>
 
-    <div id="map" style="width: 500px; height: 400px"></div>
+    <div id="map"></div>
 
     <!-- 제이쿼리 실행 -->
     <script src="js/jquery-3.6.0.js"></script>
@@ -87,12 +87,12 @@
 
     <script>
       var container = document.getElementById("map");
-      var options = {
+      var optionsone = {
         center: new kakao.maps.LatLng(33.450701, 126.570667),
         level: 3,
       };
 
-      var map = new kakao.maps.Map(container, options);
+      var map = new kakao.maps.Map(container, optionsone);
     </script>
   </body>
 </html>
