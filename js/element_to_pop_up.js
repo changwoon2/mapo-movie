@@ -1,8 +1,8 @@
 (function ($) {
-  // DOM Ready
+  // DOM 준비
   $(function () {
-    // Binding a click event
-    // From jQuery v.1.7.0 use .on() instead of .bind()
+    // 클릭 이벤트 바인딩
+    // jQuery v.1.7.0에서 .bind() 대신 .on()을 사용합니다.
     $(".imgone").on("click", function (e) {
       let self = $(this), //button
         content = $(".content");
@@ -14,9 +14,9 @@
           content.empty();
         },
       });
-      // Prevents the default action to be triggered.
+      // 기본 작업이 트리거되지 않도록 합니다.
       e.preventDefault();
-      // Triggering bPopup when click event is fired
+      // 클릭 이벤트가 발생할 때 bPopup 트리거링
       $("#element_to_pop_up").bPopup();
     });
   });

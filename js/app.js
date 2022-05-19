@@ -1,14 +1,14 @@
 const carousel = document.querySelector(".carousel");
 let sliders = [];
 
-let slideIndex = 0; // to track current slide index.
+let slideIndex = 0; // 현재 슬라이드 인덱스를 추적합니다.
 
 const createSlide = () => {
   if (slideIndex >= movies.length) {
     slideIndex = 0;
   }
 
-  // creating DOM element
+  // DOM 요소 생성
   let slide = document.createElement("div");
   let imgElement = document.createElement("img");
   let content = document.createElement("div");
@@ -27,7 +27,7 @@ const createSlide = () => {
   imgElement.src = movies[slideIndex].image;
   slideIndex++;
 
-  // setting elements classname
+  // 요소 설정클래스 이름
   slide.className = "slider";
   content.className = "slide-content";
   h1.className = "movie-title";

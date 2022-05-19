@@ -16,14 +16,16 @@ body {
   display: none;
 }
 
-h1 {
+.text_box {
   position: absolute;
   color: white;
   padding-top: 150px;
   padding-left: 240px;
+  height: 100px;
+  font-size: 30px;
 }
 
-/* icon */
+/* 로고 */
 #logo {
   position: absolute;
   width: 40px;
@@ -48,7 +50,7 @@ h1 {
 }
 
 /* 헤더영역글 */
-#header {
+#home {
   position: absolute;
   left: 700px;
   top: 60px;
@@ -56,7 +58,20 @@ h1 {
   font-weight: 800;
   line-height: 24px;
   z-index: 1;
-  letter-spacing: 0.1em;
+  color: white;
+}
+#home:hover {
+  color: #9d24fc;
+}
+
+#header {
+  position: absolute;
+  left: 812px;
+  top: 60px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  z-index: 1;
 }
 #header a:hover {
   color: #9d24fc;
@@ -66,13 +81,12 @@ h1 {
 }
 #content {
   position: absolute;
-  left: 895px;
+  left: 978px;
   top: 60px;
   font-weight: 800;
   font-size: 20px;
   line-height: 24px;
   z-index: 1;
-  letter-spacing: 0.3em;
 }
 
 #content a {
@@ -85,12 +99,12 @@ h1 {
   position: absolute;
   width: 94px;
   height: 24px;
-  left: 1065px;
+  left: 1107px;
   top: 60px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.4em;
+
   z-index: 1;
 }
 
@@ -101,6 +115,8 @@ h1 {
 #login a:hover {
   color: #9d24fc;
 }
+
+/* 메뉴선 */
 #var {
   position: absolute;
   width: 0px;
@@ -130,7 +146,8 @@ h1 {
 }
 
 .facebook img:hover {
-  border: solid 1px #9d24fc;
+  border: solid 3px #9d24fc;
+  border-radius: 50px;
 }
 @keyframes rotate_image {
   100% {
@@ -154,7 +171,8 @@ h1 {
 }
 
 .inst img:hover {
-  border: solid 1px #9d24fc;
+  border: solid 3px #9d24fc;
+  border-radius: 50px;
 }
 @keyframes rotate_image {
   100% {
@@ -178,7 +196,8 @@ h1 {
 }
 
 .tw img:hover {
-  border: solid 1px #9d24fc;
+  border: solid 3px #9d24fc;
+  border-radius: 50px;
 }
 @keyframes rotate_image {
   100% {
@@ -193,6 +212,8 @@ h1 {
 .texthover:hover .middle {
   opacity: 1;
 }
+
+/* 카드영역스타일 */
 .imgone {
   position: absolute;
   left: 240px;
@@ -277,7 +298,7 @@ h1 {
   cursor: pointer;
 }
 
-/* bars */
+/* 헴버거 텍스트 */
 .kakao {
   position: absolute;
   left: 280px;
@@ -291,10 +312,10 @@ h1 {
 
 .kakao:hover,
 .naver:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
+  /* 흔들기 애니메이션을 시작하고 애니메이션을 0.5초간 지속시킵니다. */
   animation: shake 0.9s;
 
-  /* When the animation is finished, start again */
+  /* 애니메이션이 완료되면 다시 시작합니다. */
   animation-iteration-count: infinite;
 }
 
@@ -495,15 +516,7 @@ h1 {
   color: #9d24fc;
 }
 
-.emphasized {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px,
-    rgba(0, 0, 0, 0.5) 2px 2px 3px 3px;
-  z-index: 100;
-}
-
+/* 카피라이트 */
 .gnb {
   position: absolute;
   width: 312px;
@@ -541,15 +554,7 @@ h1 {
   width: 100%;
 }
 
-/* 메뉴바 */
-
-/* blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-} */
+/* 햄버거메뉴 */
 
 .mBtn a {
   /* display: block;

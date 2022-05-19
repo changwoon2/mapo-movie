@@ -1,3 +1,4 @@
+// 슬라이드 사진
 let movies = [
   {
     name: "falcon and the winter soldier",

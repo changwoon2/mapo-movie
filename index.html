@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project</title>
+    <!-- index css -->
     <link rel="stylesheet" href="css/newproject.css" />
+    <!-- 모달창 css -->
     <link rel="stylesheet" href="css/element_to_pop_up.css" />
   </head>
   <body>
+    <!-- 오른쪽영역 -->
     <div id="logo">
       <img src="img/newporject/LOGO.png" class="chatbox" alt="로고자리" />
     </div>
+    <div id="home">HOME</div>
     <div id="header">
-      <a href="towproject.html">Mapo Movie</a>
+      <a href="towproject.html">MapoMovie</a>
     </div>
     <div id="content">
       <a href="theater.html">Theater</a>
@@ -45,7 +49,11 @@
       >
     </div>
 
-    <h1>Box Office</h1>
+    <!-- 카드 영역 -->
+    <div class="text_box" data-trigger>
+      <span class="text_office"></span>
+    </div>
+    <h1></h1>
     <div class="texthover">
       <div class="imgone">
         <img src="img/newporject/AQUAMAN.jpg" alt="AQUAMAN" class="image" />
@@ -118,6 +126,8 @@
         </div>
       </div>
     </div>
+
+    <!-- 모달창 영역 -->
     <div id="element_to_pop_up">
       <iframe
         width="640"
@@ -198,6 +208,7 @@
       ></iframe>
     </div>
 
+    <!-- 햄버거메뉴 -->
     <div class="mBtn"><a href="javascript:;"></a></div>
     <nav class="mNav">
       <ul class="sub">
@@ -235,10 +246,14 @@
       </ul>
     </nav>
     <div class="bg-shadow"></div>
-
+    <!-- 제이쿼리 -->
     <script src="js/jquery-3.6.0.js"></script>
+    <!-- 제이쿼리 모달창 -->
     <script src="js/jquery.bpopup-0.10.0.min.js"></script>
     <script src="js/element_to_pop_up.js"></script>
+    <!-- 헴버거 스크립트 -->
     <script src="js/bars.js"></script>
+    <!-- 텍스트박스 -->
+    <script src="js/textbox.js"></script>
   </body>
 </html>

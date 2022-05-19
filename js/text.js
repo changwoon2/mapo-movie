@@ -5,24 +5,24 @@
    * Example usage: jQuery('.selector').spanLetters();
    */
   $.fn.spanLetters = function () {
-    // Loop through each element on which this function has been called
+    // 이 함수가 호출된 각 요소를 루프합니다.
     this.each(function () {
-      // Scope the variables
+      // 변수 범위 지정
       var words, i, text;
 
-      // Make an array with each letter of the string as a value
+      // 문자열의 각 문자를 값으로 배열 만들기
       words = $(this).text().split("");
 
-      // Loop through the letters and wrap each one in a span
+      // 글자를 반복하여 한 칸에 한 칸씩
       for (i = 0; i in words; i++) {
         words[i] =
           '<span class="sl' + (i + 1) + ' span-letter">' + words[i] + "</span>";
       }
 
-      // Join our array of span-wrapped letters back into a string
+      // 스팬으로 포장된 문자를 문자열로 다시 연결
       text = words.join("");
 
-      // Replace the original string with the new string
+      // 원래 문자열을 새 문자열로 바꿉니다
       $(this).html(text);
     });
   };

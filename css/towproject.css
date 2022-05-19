@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -40,13 +42,12 @@ body {
 
 #home {
   position: absolute;
-  left: 725px;
+  left: 700px;
   top: 60px;
   font-size: 20px;
   font-weight: 800;
   line-height: 24px;
   z-index: 1;
-  letter-spacing: 0.6em;
 }
 #home a:hover {
   color: #9d24fc;
@@ -55,15 +56,28 @@ body {
   color: white;
 }
 
+#header {
+  position: absolute;
+  left: 812px;
+  top: 60px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  z-index: 1;
+  color: white;
+}
+#header:hover {
+  color: #9d24fc;
+}
+
 #content {
   position: absolute;
-  left: 895px;
+  left: 978px;
   top: 60px;
   font-weight: 800;
   font-size: 20px;
   line-height: 24px;
   z-index: 1;
-  letter-spacing: 0.3em;
 }
 
 #content a {
@@ -76,12 +90,11 @@ body {
   position: absolute;
   width: 94px;
   height: 24px;
-  left: 1065px;
+  left: 1107px;
   top: 60px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.4em;
   z-index: 1;
 }
 #login a:hover {
@@ -89,6 +102,35 @@ body {
 }
 #login a {
   color: #c4c4c4;
+}
+
+.MapoMovie {
+  position: absolute;
+  left: 1500px;
+  top: 60px;
+  color: white;
+  font-size: 25px;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+.MapoMovie div {
+  font-family: "Alfa Slab One", cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: MapoMovie 1s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes MapoMovie {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
 }
 
 /* 슬라이드 시작 */
