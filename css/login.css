@@ -6,9 +6,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  -ms-overflow-style: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 /* .login-form a {
   color: white;
 } */
@@ -21,10 +24,12 @@ body {
 
 /* 비디오설정 */
 #myvideo {
-  position: fixed;
-  height: 100%;
+  display: block;
+  right: 0;
+  bottom: 0;
   width: 100%;
-  z-index: -1;
+  height: 100%;
+  /* margin: auto; */
 }
 
 /* 텍스트스크립트 */
@@ -32,27 +37,23 @@ body {
   font-size: 64px;
   text-align: center;
   margin: 50px auto 50px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-weight: 700;
   font-family: Righteous;
   color: white;
   /* max-width: 1150px; */
+  padding-top: 150px;
 }
-
 .the-goods span {
   text-shadow: -1px 0 0px blueviolet, 0 1px 0px #c4c4c4, -2px 1px 0px blueviolet,
     -1px 2px 0px #c4c4c4, -3px 2px 0px blueviolet, -2px 3px 0px #c4c4c4,
     -4px 3px 0px blueviolet, -3px 4px 0px #c4c4c4, -5px 4px 0px blueviolet,
     -4px 5px 0px #c4c4c4, -6px 5px 0px blueviolet, -5px 6px 15px white;
   display: inline-block;
-  position: relative;
-  padding: 0px 6px;
+  /* position: relative;  */
+  padding: 0 4px;
   transition: 0.8s;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-}
-
-.the-goods:hover {
-  cursor: pointer;
 }
 
 .the-goods:hover span:nth-child(odd) {
@@ -70,6 +71,7 @@ body {
   height: 100%;
   /* background-image: linear-gradient(to right, #ff9a9e 0%, #fad0c4 100%); */
   transition: 0.4s;
+  z-index: 1;
 }
 
 .login-form {
@@ -128,7 +130,7 @@ input {
   border-radius: 6px;
   cursor: pointer;
   left: 0px;
-  top: 344px;
+  top: 190px;
   position: absolute;
   font-size: 20px;
   text-transform: uppercase;
@@ -136,10 +138,11 @@ input {
 }
 
 #back {
-  padding-left: 950px;
-  padding-top: 650px;
+  padding-left: -100px;
+  padding-top: 250px;
   font-size: 10px;
-  position: absolute;
+  display: block;
+  text-align: center;
 }
 
 #back a {

@@ -8,7 +8,6 @@
   font-size: 22px;
   font-weight: 500;
   font-family: "Inter";
-  font-style: normal;
 }
 
 .movies-list {
@@ -136,12 +135,12 @@
 
 .pre-btn {
   left: 0;
-  background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+  background: linear-gradient(to right, #181926 0%, #0c111b00);
 }
 
 .nxt-btn {
   right: 0;
-  background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+  background: linear-gradient(to left, #181926 0%, #0c111b00);
 }
 
 .pre-btn img,
