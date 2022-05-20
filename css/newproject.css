@@ -220,35 +220,30 @@ body {
   position: absolute;
   left: 240px;
   top: 218px;
-  cursor: pointer;
 }
 
 .imgtwo {
   position: absolute;
   left: 552px;
   top: 218px;
-  cursor: pointer;
 }
 
 .imgthree {
   position: absolute;
   left: 864px;
   top: 218px;
-  cursor: pointer;
 }
 
 .imgfour {
   position: absolute;
   left: 1176px;
   top: 218px;
-  cursor: pointer;
 }
 
 .container {
   position: absolute;
   left: 240px;
   top: 648px;
-  cursor: pointer;
 }
 
 .image {
@@ -277,27 +272,26 @@ body {
   font-size: 16px;
   padding: 16px 32px;
   border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .imgsix {
   position: absolute;
   left: 556px;
   top: 648px;
-  cursor: pointer;
 }
 
 .imgseven {
   position: absolute;
   left: 864px;
   top: 648px;
-  cursor: pointer;
 }
 
 .imgeight {
   position: absolute;
   left: 1176px;
   top: 648px;
-  cursor: pointer;
 }
 
 /* 헴버거 텍스트 */

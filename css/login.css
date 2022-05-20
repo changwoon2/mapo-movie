@@ -50,7 +50,7 @@ body {
     -4px 3px 0px blueviolet, -3px 4px 0px #c4c4c4, -5px 4px 0px blueviolet,
     -4px 5px 0px #c4c4c4, -6px 5px 0px blueviolet, -5px 6px 15px white;
   display: inline-block;
-  /* position: relative;  */
+  position: relative;
   padding: 0 4px;
   transition: 0.8s;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -74,7 +74,7 @@ body {
   z-index: 1;
 }
 
-.login-form {
+.loginform {
   position: absolute;
   top: 50%;
   left: 50%;

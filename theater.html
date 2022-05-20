@@ -15,10 +15,8 @@
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4679eaf25f8ad4a6f608a49bfbafe391&libraries=services"
     ></script>
-    <script
-      type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services,clusterer,drawing"
-    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <div id="logo">
@@ -125,20 +123,30 @@
       </div>
     </div>
     <!-- 영화관소개 -->
-    <img src="img/theater/인디스페이스.jpg" class="imges" alt="1" />
+    <img
+      src="img/theater/인디스페이스.jpg"
+      class="imges"
+      data-aos="zoom-in"
+      alt="1"
+    />
 
-    <h1 class="text1">인디스페이스</h1>
-    <div class="textone">
+    <h1 class="text1" data-aos="zoom-in">인디스페이스</h1>
+    <div class="textone" data-aos="zoom-in">
       02-738-0366
       <div>서울 마포구 양화로 176(동교동,와이즈파크) 8층</div>
       <div>
         서로를 이해하는 가장 솔직한방법 우리를 만나는 영화관 인디스페이스
       </div>
     </div>
-    <img src="img/theater/상상마당시네마.jpg" class="imgesone" alt="2" />
-    <h1 class="text2">KT&G 상상마당 시네마</h1>
+    <img
+      src="img/theater/상상마당시네마.jpg"
+      data-aos="zoom-in"
+      class="imgesone"
+      alt="2"
+    />
+    <h1 class="text2" data-aos="zoom-in">KT&G 상상마당 시네마</h1>
 
-    <div class="texttwo">
+    <div class="texttwo" data-aos="zoom-in">
       02-330-6243
       <div>서울 마포구 어울마당로 65 상상마당 홍대 지하4층</div>
       <div>
@@ -146,10 +154,15 @@
       </div>
     </div>
 
-    <img src="img/theater/시네마테크.jpg" class="imgestwo" alt="3" />
-    <h1 class="text3">시네마테크KOFA</h1>
+    <img
+      src="img/theater/시네마테크.jpg"
+      class="imgestwo"
+      data-aos="zoom-in"
+      alt="3"
+    />
+    <h1 class="text3" data-aos="zoom-in">시네마테크KOFA</h1>
 
-    <div class="textthree">
+    <div class="textthree" data-aos="zoom-in">
       02-3153-2075
       <div>서울 마포구 월드컵북로54길 12 디지털매직스페이스</div>
       <div>영화가 있는 곳, 영화를 만나는 곳, 영화가 당신을 기다리는 곳</div>
@@ -194,5 +207,13 @@
     <script src="js/boxlist.js"></script>
     <!-- 카카오 스크립트 -->
     <script src="js/kakao.js"></script>
+    <script>
+      AOS.init({
+        // offset: 1000,
+        duration: 800,
+        easing: "linear",
+        // delay: 100,
+      }); // 자바스크립트로 init()을 해야 동작한다.
+    </script>
   </body>
 </html>

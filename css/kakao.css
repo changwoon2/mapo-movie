@@ -146,9 +146,12 @@
 #pagination a {
   display: inline-block;
   margin-right: 10px;
+  color: white;
 }
 #pagination .on {
   font-weight: bold;
   cursor: default;
-  color: #777;
+}
+#pagination a:hover {
+  color: darkkhaki;
 }

@@ -213,3 +213,7 @@ function removeAllChildNods(el) {
     el.removeChild(el.lastChild);
   }
 }
+
+$("#pagination").click(function (e) {
+  e.preventDefault();
+});
