@@ -48,6 +48,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   z-index: 1;
+  font-weight: bold;
 }
 #home a:hover {
   color: #9d24fc;
@@ -64,6 +65,7 @@ body {
   line-height: 24px;
   z-index: 1;
   color: white;
+  font-weight: bold;
 }
 #header:hover {
   color: #9d24fc;
@@ -76,6 +78,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   z-index: 1;
+  font-weight: bold;
 }
 
 #content a {
@@ -93,6 +96,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   z-index: 1;
+  font-weight: bold;
 }
 #login a:hover {
   color: #9d24fc;
@@ -275,9 +279,9 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* .frame:hover .image {
-  opacity: 1;
-} */
+.frame:hover .image {
+  opacity: 0.7;
+}
 
 .frame:hover .middle {
   opacity: 1;
@@ -297,6 +301,7 @@ body {
   text-align: center;
   /* overflow: hidden; */
   /* text-overflow: ellipsis; */
+  font-weight: bold;
 }
 
 .image:hover {
