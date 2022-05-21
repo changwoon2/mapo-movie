@@ -8,7 +8,7 @@
     // 이 함수가 호출된 각 요소를 루프합니다.
     this.each(function () {
       // 변수 범위 지정
-      var words, i, text;
+      let words, i, text;
 
       // 문자열의 각 문자를 값으로 배열 만들기
       words = $(this).text().split("");
