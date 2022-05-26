@@ -4,7 +4,6 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
   text-decoration: none;
   font-family: "Noto Sans", sans-serif;
 }
@@ -277,7 +276,6 @@ body {
   border-radius: 5px;
   overflow: hidden;
   background: #030b17;
-  /* margin-top: 0px; */
 }
 
 .video-card-image,

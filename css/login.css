@@ -12,15 +12,6 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-/* .login-form a {
-  color: white;
-} */
-
-/* .login-form h1 {
-  font-weight: 400;
-  margin-right: 320px;
-  font-size: 64px;
-} */
 
 /* 비디오설정 */
 #myvideo {
@@ -29,7 +20,6 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  /* margin: auto; */
 }
 
 /* 텍스트스크립트 */
@@ -41,7 +31,6 @@ body {
   font-weight: 700;
   font-family: Righteous;
   color: white;
-  /* max-width: 1150px; */
   padding-top: 150px;
 }
 .the-goods span {
@@ -69,7 +58,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background-image: linear-gradient(to right, #ff9a9e 0%, #fad0c4 100%); */
   transition: 0.4s;
   z-index: 1;
 }
@@ -150,28 +138,6 @@ input {
   color: white;
   text-decoration: underline;
 }
-/* .hide-login-btn {
-  color: white;
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  cursor: pointer;
-  font-size: 5rem;
-  opacity: 0.7;
-} */
-
-/* .show-login-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  border: 1px solid;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 2rem;
-  background-color: darkgoldenrod;
-} */
 
 .showed {
   left: 0;
