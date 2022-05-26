@@ -1,3 +1,4 @@
+// 반복하는 텍스트
 const content = "Box Office";
 const text_office = document.querySelector(".text_office");
 let i = 0;

@@ -1,3 +1,4 @@
+// 세번째 슬라이드 영역
 let cardContainers = [...document.querySelectorAll(".card-container")];
 let preBtns = [...document.querySelectorAll(".pre-btn")];
 let nxtBtns = [...document.querySelectorAll(".nxt-btn")];
