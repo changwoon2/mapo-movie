@@ -15,6 +15,8 @@
 
 ![homeimg](https://user-images.githubusercontent.com/103020096/171074582-5aeafd3f-0a7c-40c3-88ae-77bfa7605a9f.jpg)
 
+# Explanation
+
 ##### 로고기능
 
 - 로고에는 애니메이션 효과를 줌
