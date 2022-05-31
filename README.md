@@ -86,7 +86,7 @@
 
 ### 팝업창
 
-![mainone](https://user-images.githubusercontent.com/103020096/171080241-bb28e123-a1ea-48ce-9616-457843a48424.jpg
+![mainone](https://user-images.githubusercontent.com/103020096/171080241-bb28e123-a1ea-48ce-9616-457843a48424.jpg)
 ![maintwo](https://user-images.githubusercontent.com/103020096/171079203-9d29b551-9bcc-4742-af4f-4be1eddea4d8.jpg)
 
 # Explanation
