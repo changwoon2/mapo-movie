@@ -15,6 +15,8 @@
 
 ![homeimg](https://user-images.githubusercontent.com/103020096/171074582-5aeafd3f-0a7c-40c3-88ae-77bfa7605a9f.jpg)
 
+# 로고기능
+
 # 1. MAPO MOVIE bars menu
 
 ### 햄버거메뉴
@@ -57,4 +59,4 @@
 
 ### 마포무비
 
-<img src="../index/mapomovie.jpg">
+![mapomovie](https://user-images.githubusercontent.com/103020096/171077661-2ed6bc34-3670-462f-8865-9f5e4eda773a.jpg)
