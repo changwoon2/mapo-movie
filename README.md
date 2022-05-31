@@ -8,13 +8,13 @@
 3. THEATER
 4. LOGIN
 
-# MAPO MOVIE home page
-
-
+# 1. MAPO MOVIE home page
 ### 홈화면
-<img src="https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg"  width="700" height="370">
+![homeimg](https://user-images.githubusercontent.com/103020096/171074582-5aeafd3f-0a7c-40c3-88ae-77bfa7605a9f.jpg)
 
-
+# 1. MAPO MOVIE bars menu
+### 햄버거메뉴
+![homeimg](https://user-images.githubusercontent.com/103020096/171074582-5aeafd3f-0a7c-40c3-88ae-77bfa7605a9f.jpg)
 # 10. 코드블럭 추가하기
 
 ```swift
