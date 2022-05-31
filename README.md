@@ -185,3 +185,16 @@
 ![submenu1](https://user-images.githubusercontent.com/103020096/171080482-b910ce88-b55a-40fd-acc8-20c673b5981c.jpg)
 ![submenu2](https://user-images.githubusercontent.com/103020096/171080491-db8d2708-b712-4be0-812f-44506d771ff2.jpg)
 ![submenu](https://user-images.githubusercontent.com/103020096/171080471-c6839c90-d7b8-4156-8615-f8207dd7efe2.jpg)
+![button](https://user-images.githubusercontent.com/103020096/171080705-b95298fa-cc20-4d5b-9f12-a98d9fee8e19.jpg)
+
+# Explanation
+
+##### 극장 서브메뉴 소개
+
+- 스크롤시 이미지 텍스트 zoom 기능
+- 아래로 스크롤시 사라졌다가 다시 생기는 기능
+
+##### 탑 스크롤
+
+- 아래로 스크롤시 탑버튼 클릭추가
+- 상단페이지로 이동
