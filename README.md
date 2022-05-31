@@ -27,9 +27,10 @@
 
 ![barsimg](https://user-images.githubusercontent.com/103020096/171076420-c0986dfc-d2a1-4d9b-91a2-2eee0a7782b2.jpg)
 
-# 10. 코드블럭 추가하기
+# 1. 팝업창코드
 
 ```swift
+(function ($) {
   $(function () {
     // 클릭 이벤트 바인딩
     // jQuery v.1.7.0에서 .bind() 대신 .on()을 사용합니다.
@@ -49,4 +50,11 @@
       // 클릭 이벤트가 발생할 때 bPopup 트리거링
       $("#element_to_pop_up").bPopup();
     });
+    })(jQuery);
 ```
+
+# 2. MAPO MOVIE page
+
+### 마포무비
+
+<img src="/index/mapomovie.jpg">
