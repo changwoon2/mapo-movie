@@ -86,7 +86,20 @@
 
 ### 팝업창
 
-![barsimg](https://user-images.githubusercontent.com/103020096/171076420-c0986dfc-d2a1-4d9b-91a2-2eee0a7782b2.jpg)
+![maintwo](https://user-images.githubusercontent.com/103020096/171079203-9d29b551-9bcc-4742-af4f-4be1eddea4d8.jpg)
+
+# Explanation
+
+##### 영화 포스터
+
+- 마우스 호버시 배경 어두어짐
+- 텍스트 박스 클릭시 팝업 실행
+
+##### 팝업 영역
+
+- 각 영화 예고편 실행
+- 400x180 해상도 기준으로 만듬
+- 오디오 확대 기능
 
 # 1. 팝업창코드
 
