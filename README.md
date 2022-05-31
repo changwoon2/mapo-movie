@@ -86,6 +86,7 @@
 
 ### 팝업창
 
+![mainone](https://user-images.githubusercontent.com/103020096/171080241-bb28e123-a1ea-48ce-9616-457843a48424.jpg
 ![maintwo](https://user-images.githubusercontent.com/103020096/171079203-9d29b551-9bcc-4742-af4f-4be1eddea4d8.jpg)
 
 # Explanation
@@ -160,4 +161,23 @@
 
 # 3. Theater
 
-### 마포무비
+### 극장페이지
+
+![theater](https://user-images.githubusercontent.com/103020096/171079891-1fa0a4dc-96ee-4daa-8259-4a7038257078.jpg)
+
+##### 움직이는 텍스트 효과
+
+- 구글 웹폰트 사용 움직이는 트랜지션 효과
+- 텍스트 그라데이션 추가
+
+##### 메인 슬라이드
+
+- 좌측으로 3초후 이동하는 슬라이드
+
+##### 비디오 박스
+
+- 마우스 호버시 해당 브랜드 비디오 실행
+
+# 3. Theater submenu
+
+### 극장소개
