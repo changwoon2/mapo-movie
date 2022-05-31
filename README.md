@@ -15,7 +15,7 @@
 
 ![homeimg](https://user-images.githubusercontent.com/103020096/171074582-5aeafd3f-0a7c-40c3-88ae-77bfa7605a9f.jpg)
 
-# 로고기능
+##### 로고기능
 
 # 1. MAPO MOVIE bars menu
 
