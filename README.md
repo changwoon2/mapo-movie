@@ -245,4 +245,6 @@
 - 로그인 보더효과
 - Back 버튼 홈으로 돌아가기
 
+---
+
 ![man](https://user-images.githubusercontent.com/103020096/171081934-f9073139-c1ee-475e-8c90-1ed401cedc24.jpg)
