@@ -57,4 +57,4 @@
 
 ### 마포무비
 
-<img src="mapomovie.jpg">
+<img src="../index/mapomovie.jpg">
